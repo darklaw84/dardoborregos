@@ -1,0 +1,264 @@
+
+
+
+
+#videosList {
+    max-width: 600px; 
+     overflow: hidden;
+   }
+   
+   .video {
+     background-image: url('https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg');
+     height: 330px;
+     width: 600px;
+     margin-bottom: 50px;
+   }
+   
+   /* Hide Play button + controls on iOS */
+   video::-webkit-media-controls {
+       display:none !important;
+   }
+
+   
+  
+  .row-first {
+    height:80%;
+    overflow: hidden;
+  }
+
+
+
+
+  html, body {
+    height: 100%;
+  }
+  
+  .full-height {
+    height: 100%;
+  }
+
+
+  .medio-height {
+    height: 50%;
+  }
+  .separacion-height {
+    height: 10%;
+  }
+
+  .horizontal-height {
+    height: 30%;
+  }
+
+ 
+
+
+  
+  
+  .central {
+    height: 80%;
+  }
+
+
+  
+  .logosportafolio {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+
+
+  .image {
+    position: absolute;
+    bottom: -60px;
+    /* half of image height */
+    
+    
+  }
+
+
+
+
+
+.modalbordered {
+  border-style: solid;
+  border-color:#FFFFFF ;
+  border-width: 1px!important;
+  border-left: 1px!important;
+  border-right: 1px!important;
+  
+  
+  
+  
+}
+
+
+
+.blur
+{
+  
+  -webkit-filter: brightness(30%) blur(3px);
+  filter: brightness(30%) blur(3px);
+  
+  -moz-filter: brightness(30%) blur(3px);
+  -o-filter: brightness(30%) blur(3px);
+  -ms-filter: brightness(30%) blur(3px);
+  
+}
+
+
+.modal-content {
+  
+  background-color:transparent!important;
+  
+
+  
+}
+
+
+.imgCerrarX {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  height: 40px;
+  /* half of image height */
+  z-index: 1000;
+  
+}
+
+
+
+/*Alianzas*/
+
+
+.imgTituloAlianzas {
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  height: 80px;
+  /* half of image height */
+  z-index: 1000;
+  
+}
+
+
+
+
+.imgBtnEnviar {
+  position: absolute;
+  bottom: -1px;
+  right: -5px;
+  height: 25px;
+  /* half of image height */
+  z-index: 1000;
+  
+}
+
+.imgBtnEnviar:hover {
+  cursor: pointer;
+  
+}
+
+
+
+
+
+
+
+
+
+/*Nosotros*/
+
+
+.imgGrabaciones {
+  position: absolute;
+  bottom: -15px;
+  left: 20px;
+  height: 80px;
+  /* half of image height */
+  z-index: 1000;
+  
+}
+
+
+.imgCamara {
+  position: absolute;
+  bottom: -15px;
+  left: 100px;
+  height: 80px;
+  /* half of image height */
+  z-index: 1000;
+  
+}
+
+
+.imgCafe {
+  position: absolute;
+  bottom: -15px;
+  left: 180px;
+  height: 80px;
+  /* half of image height */
+  z-index: 1000;
+  
+}
+
+
+.imgAlianzaTitulo {
+  position:absolute; 
+  top:10px;
+  left:5px;
+  
+}
+
+
+.imgContactoTitulo {
+  position:absolute; 
+  top:10px;
+  right:5px;
+  
+}
+
+
+
+
+/*
+wrapping images gris*/
+
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+ 
+}
