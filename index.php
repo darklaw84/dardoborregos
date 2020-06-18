@@ -607,13 +607,7 @@
 
 
 
-                        <!-- <div class="row">
-                            <div class="col-md-12  d-flex justify-content-end">
-                                <img height="60px" src="imagenes/nosotrosdardo7.svg" />
-
-                            </div>
-                        </div>
-                        -->
+                       
                     </div>
 
 
