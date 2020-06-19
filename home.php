@@ -406,7 +406,19 @@
                 </a>
 
                 <div class="modal-body border border-light">
-                    <p class="letraBlancaAlianza">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                    <div class="row justify-content-center align-items-center" style="height: 300px;">
+
+                        <div class="col-4">
+                            <img height="width:100%" class="img-responsive" src="imagenes/ali2.svg" />
+                        </div>
+                       
+                        <div class="col-4">
+                            <img height="width:100%" class="img-responsive" src="imagenes/ali3.svg" />
+
+                        </div>
+
+
+                    </div>
                     <div class="row">
                         <div class="col-8 ">
                             <img style="padding-left: 30px" src="imagenes/alianzas2.svg" />
@@ -419,16 +431,7 @@
                     <div class="row justify-content-center" style="height: 40px">
                     </div>
 
-                    <div class="row ">
 
-                        <div class="col-12 text-center">
-                            <img style="padding: 10px" height="60px" src="imagenes/aliado2.svg" />
-                            <img style="padding: 10px" height="60px" src="imagenes/aliado2.svg" />
-                            <img style="padding: 10px" height="60px" src="imagenes/aliado3.svg" />
-                        </div>
-
-
-                    </div>
 
                     <div class="row">
 
@@ -477,11 +480,11 @@
                         <div id="divEspaniol" class="col-lg-11 col-md-12 mt-5">
                             <div class="row align-items-center">
                                 <div class="col-2">
-                                   <span class="numeroBlanco">1 </span>
-                                        
-                                            <img height="20px" src="imagenes/triangulo.svg" />
-                                       
-                                    
+                                    <span class="numeroBlanco">1 </span>
+
+                                    <img height="20px" src="imagenes/triangulo.svg" />
+
+
                                 </div>
                                 <div class="col-10">
                                     <span class="numeroRosa">un </span>
@@ -490,14 +493,14 @@
                             </div>
                             <div class="row align-items-center">
                                 <div class="col-2"><span class="numeroBlanco">2 </span>
-                                <img height="20px" src="imagenes/cuadrado.svg" /></div>
+                                    <img height="20px" src="imagenes/cuadrado.svg" /></div>
                                 <div class="col-10">
                                     <span class="numeroAzul">dos </span>
                                     <span class="nosotrosTexto"> reglas fundamentales: Creatividad mata presupuesto y video que no provoque sonrisa, no esta terminado.</span>
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="col-2"> <span class="numeroBlanco">3 </span>
-                                    <img height="20px" src="imagenes/circulo.svg" /></div>
+                                        <img height="20px" src="imagenes/circulo.svg" /></div>
                                     <div class="col-10">
                                         <span class="numeroRosa">tres </span>
                                         <span class="nosotrosTexto"> socios fundamentales: Rodrigo Fierros Chavero (Rojo), María Villalobos Flota (Mary) y Jorge López Archundia(Chino).</span>
@@ -505,7 +508,7 @@
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="col-2"><span class="numeroBlanco">4 </span>
-                                    <img height="20px" src="imagenes/triangulo.svg" /></div>
+                                        <img height="20px" src="imagenes/triangulo.svg" /></div>
                                     <div class="col-10">
                                         <span class="numeroAzul">cuatro </span>
                                         <span class="nosotrosTexto"> mandamientos de video: Optimizado para multiplataformas. Funciona sin sonido, pero impacta si lo escuchas. Con objetivo claro de comunicación. En duración: Menos es más.</span>
@@ -513,7 +516,7 @@
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="col-2"> <span class="numeroBlanco">5 </span>
-                                    <img height="20px" src="imagenes/cuadrado.svg" /></div>
+                                        <img height="20px" src="imagenes/cuadrado.svg" /></div>
                                     <div class="col-10">
                                         <span class="numeroRosa">cinco </span>
                                         <span class="nosotrosTexto"> años creando, jugando, imaginando, concursando, aprendiendo, colaborando e innovando (¡y vamos por más!).</span>
@@ -521,7 +524,7 @@
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="col-2"> <span class="numeroBlanco">6 </span>
-                                    <img height="20px" src="imagenes/circulo.svg" /></div>
+                                        <img height="20px" src="imagenes/circulo.svg" /></div>
                                     <div class="col-10">
                                         <span class="numeroAzul">seis </span>
                                         <span class="nosotrosTexto"> ciudades fuera de México donde se han presentado nuestros videos (hasta ahora): NY, Londres, Barcelona, San Diego, Madrid y Dallas.</span>
@@ -529,7 +532,7 @@
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="col-2"> <span class="numeroBlanco">7 </span>
-                                    <img height="20px" src="imagenes/triangulo.svg" /></div>
+                                        <img height="20px" src="imagenes/triangulo.svg" /></div>
                                     <div class="col-10">
                                         <span class="numeroRosa">siete </span>
                                         <span class="nosotrosTexto"> cosas que nos motivan: un buen café, la buena onda entre nosotros, música que mueva, botana para compartir, retas de videojuegos, amor por lo que hacemos y cheves los viernes.</span>
@@ -543,7 +546,7 @@
                         <div id="divIngles" style="display: none;" class="col-lg-11 col-md-12 mt-5">
                             <div class="row align-items-center">
                                 <div class="col-2"><span class="numeroBlanco">1 </span>
-                                <img height="20px" src="imagenes/triangulo.svg" /> </div>
+                                    <img height="20px" src="imagenes/triangulo.svg" /> </div>
                                 <div class="col-10">
                                     <span class="numeroRosa">one </span>
                                     <span class="nosotrosTexto"> big goal: to inspire, sell, entertain, educate, inform and blow minds away with awesome.</span>
@@ -551,14 +554,14 @@
                             </div>
                             <div class="row align-items-center">
                                 <div class="col-2"><span class="numeroBlanco">2 </span>
-                                <img height="20px" src="imagenes/cuadrado.svg" /></div>
+                                    <img height="20px" src="imagenes/cuadrado.svg" /></div>
                                 <div class="col-10">
                                     <span class="numeroAzul">two </span>
                                     <span class="nosotrosTexto"> fundamental rules: Creativity before Budget and if a video doesn't provokes a smile it's not yet finished.</span>
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="col-2"> <span class="numeroBlanco">3 </span>
-                                    <img height="20px" src="imagenes/circulo.svg" /></div>
+                                        <img height="20px" src="imagenes/circulo.svg" /></div>
                                     <div class="col-10">
                                         <span class="numeroRosa">three </span>
                                         <span class="nosotrosTexto"> Founding partners: Rodrigo Fierros Chavero (Rojo), María Villalobos Flota (Mary) y Jorge López Archundia(Chino).</span>
@@ -566,7 +569,7 @@
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="col-2"><span class="numeroBlanco">4 </span>
-                                    <img height="20px" src="imagenes/triangulo.svg" /></div>
+                                        <img height="20px" src="imagenes/triangulo.svg" /></div>
                                     <div class="col-10">
                                         <span class="numeroAzul">four </span>
                                         <span class="nosotrosTexto"> video commandments: Multiplataform optimization. Works on mute, amazes with volume. Accurate communication objective. Duration: Less is more.</span>
@@ -574,7 +577,7 @@
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="col-2"> <span class="numeroBlanco">5 </span>
-                                    <img height="20px" src="imagenes/cuadrado.svg" /></div>
+                                        <img height="20px" src="imagenes/cuadrado.svg" /></div>
                                     <div class="col-10">
                                         <span class="numeroRosa">five </span>
                                         <span class="nosotrosTexto"> years creating, playing, imagining, competing, learning, collaborating and innovating (and more to come!).</span>
@@ -582,7 +585,7 @@
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="col-2"> <span class="numeroBlanco">6 </span>
-                                    <img height="20px" src="imagenes/circulo.svg" /></div>
+                                        <img height="20px" src="imagenes/circulo.svg" /></div>
                                     <div class="col-10">
                                         <span class="numeroAzul">six </span>
                                         <span class="nosotrosTexto"> cities outside México(so far) in which our videos were displayed at events: NY, London, Barcelona, San Diego, Madrid and Dallas.</span>
@@ -590,7 +593,7 @@
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="col-2"> <span class="numeroBlanco">7 </span>
-                                    <img height="20px" src="imagenes/triangulo.svg" /></div>
+                                        <img height="20px" src="imagenes/triangulo.svg" /></div>
                                     <div class="col-10">
                                         <span class="numeroRosa">seven </span>
                                         <span class="nosotrosTexto"> things in which we find motivation: a good cup of coffee, the good vibes between the team, nice music, crisps to share, videogames contests, love for what we do and beer on fridays.</span>
@@ -607,7 +610,7 @@
 
 
 
-                       
+
                     </div>
 
 
