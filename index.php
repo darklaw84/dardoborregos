@@ -27,7 +27,7 @@ function irHome()
 
 <body>
     <div class="video-container">
-        <video autoplay id="myVideo" onended="irHome()" >
+        <video playsinline autoplay muted id="myVideo" onended="irHome()" >
             <source src="imagenes/D7_VIDEO_VIDEOWEB_V02.mp4" type="video/mp4">
         </video>
     </div>
