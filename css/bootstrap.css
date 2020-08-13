@@ -41,6 +41,24 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'railsbold';
+  font-weight: bolder;
+  src:local('rails'),  url('../fonts/Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'railsregular';
+  font-weight: normal;
+  src: local('rails'), url('../fonts/Raleway-Medium.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'railssemibold';
+  font-weight: bold;
+  src: local('rails'), url('../fonts/Raleway-SemiBold.ttf') format('truetype');
+}
 
 
 html {
@@ -564,17 +582,69 @@ a[href^=tel] {
 /*
 xs
 */
+
+
+.ovejaDerecha {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 30%;
+  /* half of image height */
+  z-index: 1000;
+  
+}
+
+.ovejaAlianzas {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  height: 30%;
+  /* half of image height */
+  z-index: 1000;
+  
+}
+
+.logocortado {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 100px;
+  /* half of image height */
+  z-index: 1000;
+  
+}
+
+.imagenContacto
+{
+  width: 30%;
+}
+
 .nosotrosTexto
 {
   color: #FFFFFF;
   font-size: 14px;
+  font-family: 'railsregular' !important;
+}
 
+.nosotrosTextoRosa
+{
+  color: #EA0E53 !important;
+  font-size: 18px;
+  font-family: 'railsregular' !important;
+}
+
+.nosotrosTextoAzul
+{
+  color: #06BBF0 !important;
+  font-size: 18px;
+  font-family: 'railsregular' !important;
 }
 
 .numeroBlanco
 {
   color: #FFFFFF;
   font-size: 60px;
+  
 
 }
 
@@ -582,6 +652,7 @@ xs
 {
   color: #EA0E53;
   font-size: 60px;
+  font-family: 'railsbold' !important;
 
 }
 
@@ -589,6 +660,7 @@ xs
 {
   color: #06BBF0;
   font-size: 60px;
+  font-family: 'railsbold' !important;
 
 }
 
@@ -975,6 +1047,42 @@ lg
     max-width: 960px;
   }
 
+  .ovejaDerecha {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 50%;
+    /* half of image height */
+    z-index: 1000;
+    
+  }
+
+  .ovejaAlianzas {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    height: 30%;
+    /* half of image height */
+    z-index: 1000;
+    
+  }
+
+
+  .logocortado {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 130px;
+    /* half of image height */
+    z-index: 1000;
+    
+  }
+
+  .imagenContacto
+  {
+    width: 20%;
+  }
+
   .portafolioscroll
   {
     height: 700px;
@@ -982,12 +1090,12 @@ lg
 
 
   .nosotros:hover {
-    height: 60%;
+    height: 65%;
     background-color:#E90A4D ;
   }
 
   .nosotros {
-    height: 60%;
+    height: 65%;
     position: relative;
     border-top-style: none;
     border-right-style: solid;
@@ -1034,12 +1142,12 @@ lg
 
 
   .contacto:hover {
-    height: 60%;
+    height: 65%;
     background-color:#E90A4D ;
   }
 
   .contacto {
-    height: 60%;
+    height: 65%;
     position: relative;
     border-top-style: none;
     border-right-style: solid;
@@ -1103,11 +1211,23 @@ xl
     max-width: 1140px;
   }
 
-  .nosotrosTexto
+  .imagenContacto
   {
-    color: #FFFFFF;
-    font-size: 14px;
-  
+    width: 20%;
+  }
+
+  .nosotrosTextoRosa
+  {
+    color: #EA0E53 !important;
+    font-size: 18px;
+    font-family: 'railsregular' !important;
+  }
+
+  .nosotrosTextoAzul
+  {
+    color: #06BBF0 !important;
+    font-size: 18px;
+    font-family: 'railsregular' !important;
   }
   
   .numeroBlanco
@@ -1121,6 +1241,7 @@ xl
   {
     color: #EA0E53;
     font-size: 60px;
+    font-family: 'railsbold' !important;
   
   }
   
@@ -1128,6 +1249,7 @@ xl
   {
     color: #06BBF0;
     font-size: 60px;
+    font-family: 'railsbold' !important;
   
   }
 
@@ -1139,12 +1261,12 @@ xl
 
 
   .nosotros:hover {
-    height: 60%;
+    height: 65%;
     background-color:#E90A4D ;
   }
 
   .nosotros {
-    height: 60%;
+    height: 65%;
     position: relative;
     border-top-style: none;
     border-right-style: solid;
@@ -1192,12 +1314,12 @@ xl
 
 
   .contacto:hover {
-    height: 60%;
+    height: 65%;
     background-color:#E90A4D ;
   }
 
   .contacto {
-    height: 60%;
+    height: 65%;
     position: relative;
     border-top-style: none;
   border-right-style: solid;

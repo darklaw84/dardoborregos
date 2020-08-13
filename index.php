@@ -21,14 +21,21 @@ function irHome()
 {
     window.location='home.php';
 }
+
+function ponerFull()
+{
+    var elem = document.getElementById("myVideo");
+
+elem.play(); 
+}
 </script>
 
 </head>
 
-<body>
-    <div class="video-container">
-        <video playsinline autoplay muted id="myVideo" onended="irHome()" >
-            <source src="imagenes/D7_VIDEO_VIDEOWEB_V02.mp4" type="video/mp4">
+<body onload="ponerFull()">
+    <div class="fullscreen-bg">
+        <video playsinline  muted id="myVideo" onended="irHome()" >
+            <source src="imagenes/D7_VIDEO_VIDEOWEB_V05.mp4" type="video/mp4">
         </video>
     </div>
 </body>

@@ -1,5 +1,22 @@
 
+@font-face {
+  font-family: 'railsbold';
+  font-weight: bolder;
+  src:local('rails'),  url('../fonts/Raleway-Bold.ttf') format('truetype');
+}
 
+@font-face {
+  font-family: 'railsregular';
+  font-weight: normal;
+  src: local('rails'), url('../fonts/Raleway-Medium.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'railssemibold';
+  font-weight: bold;
+  src: local('rails'), url('../fonts/Raleway-SemiBold.ttf') format('truetype');
+}
 
 
 #videosList {
@@ -37,6 +54,12 @@
     height: 100%;
   }
 
+  .full-height-M {
+    height: 93%;
+  }
+  .separacion-height-M {
+    height: 7%;
+  }
 
   .medio-height {
     height: 50%;
@@ -140,6 +163,8 @@
   z-index: 1000;
   
 }
+
+
 
 
 
@@ -263,6 +288,30 @@ wrapping images gris*/
   transform: translate(-50%,-50%);
 }
 
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 
 
 /* Responsive layout - makes a two column-layout instead of four columns */
